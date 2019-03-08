@@ -1,28 +1,15 @@
 int main()
 {
-	motor(0,100);
-	motor(1,100);
-	msleep(1000);
-	motor(0,0);
-	motor(1,100);
-	msleep(3000);
-	motor(0,100);
-	motor(1,100);
-	msleep(3000);
-	motor(0,100);
-	motor(1,0);
-	msleep(1000);
-	motor(0,100);
-	motor(1,100);
-	msleep(3000);
-	motor(0,100);
-	motor(1,0);
-	msleep(500);
-	motor(0,100);
-	motor(1,100);
-	msleep(6000);
-	motor(0,0);
-	motor(1,100);
-	msleep(3000);
+	printf("Hello, World!\n");
+	motor (0,100);
+	motor (2,100);	
+	msleep (2000);
+	motor (2,100);
+	motor (0,0);
+	msleep (1200);
+	motor (2,100);
+	motor (0,100);
+	msleep (5500);
 	return 0;
 }
+
