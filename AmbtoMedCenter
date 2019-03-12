@@ -1,0 +1,17 @@
+int main()
+{
+	printf("Hello, World!\n");
+//go forward
+  motor (0,100);
+	motor (2,100);	
+	msleep (2000);
+	//turn left
+  motor (2,100);
+	motor (0,0);
+	msleep (1200);
+	//go forward
+  motor (2,100);
+	motor (0,100);
+	msleep (5500);
+	return 0;
+}
